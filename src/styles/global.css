@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+:root {
+    --primary-color: #001F3F;
+    --dark-color: #001F3F;
+    --light-bg: #FFFFFF;
+    --text-color: #001F3F;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-bg);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
